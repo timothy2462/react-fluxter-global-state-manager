@@ -1,6 +1,6 @@
 {
   "name": "react-fluxter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight state management library for React and React Native",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -35,4 +35,3 @@
     "url": "https://github.com/timothy2462/react-fluxter-global-state-manager"
   }
 }
-
