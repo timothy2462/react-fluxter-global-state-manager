@@ -45,6 +45,7 @@ function Counter() {
 ```
 
 ### Zustand-style usage:
+```
 import { create } from 'react-fluxter';
 
 const useStore = create(
@@ -65,3 +66,4 @@ function Counter() {
   
   return <div>{count}</div>;
 }
+```
