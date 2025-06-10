@@ -1,0 +1,38 @@
+{
+  "name": "react-fluxter",
+  "version": "1.0.0",
+  "description": "A lightweight state management library for React and React Native",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "state-management",
+    "redux",
+    "zustand",
+    "global-state"
+  ],
+  "author": "Timothy Akobundu",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "react": "^18.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timothy2462/react-state-sync"
+  }
+}
+
