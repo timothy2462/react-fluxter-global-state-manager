@@ -1,12 +1,10 @@
 # react-fluxter-global-state-manager
-
-
 npm install npm i react-fluxter
 ```
 
 ### Redux-style usage:
-```typescript
-import { createStore, Provider, useSelector, useDispatch } from '@yourname/react-global-state';
+
+import { createStore, Provider, useSelector, useDispatch } from 'react-fluxter';
 
 // Create store
 const store = createStore(
@@ -47,8 +45,7 @@ function Counter() {
 ```
 
 ### Zustand-style usage:
-```typescript
-import { create } from '@yourname/react-global-state';
+import { create } from 'react-fluxter';
 
 const useStore = create(
   { count: 0, name: 'John' },
